@@ -5,7 +5,7 @@
 */
 
 // Globals have module scope
-const pattern = 'ABCxyz01═|+:. '
+const pattern = 'Bow-Wow*DAO?!+ '
 
 // This is the main loop.
 // Character coordinates are passed in coord {x, y, index}.
