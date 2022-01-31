@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-<title>🐾 Bow-Wow DAO</title>
-<meta property="og:title" content="🐾 Bow-Wow DAO"/>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://www.bowwowdao.xyz"/>
-<meta property="og:image" content="og_image_bow.png"/>
+	<meta charset="utf-8">
+	<title>Bow-Wow DAO</title>
+	<link rel="stylesheet" type="https://play.ertdfgcvb.xyz/css/simple_console.css">
+	<style type="text/css" media="screen">
+		html, body {
+			padding: 0;
+			margin: 0;
+			font-size: 1em;
+			line-height: 1.2;
+			font-family: 'Simple Console', monospace;
+		}
+		pre {
+			position: absolute;
+			margin:0;
+			padding:0;
+			left:0;
+			top:0;
+			width:100vw;
+			height:100vh;
+			font-family: inherit;
+		}
+	</style>
 </head>
 <body>
-<marquee>WOW!</marquee>
-<img src="/bow_wow_dao_home.png" alt="Bow Wow DAO Mascot" style="width:1200;height:548px;"></img>
-<h2><marquee>$RUFF</marquee></h2>
+	<pre></pre>
+	<script type="module">
+		import { run } from 'https://play.ertdfgcvb.xyz/src/run.js'
+		import * as program from 'https://play.ertdfgcvb.xyz/src/programs/basics/time_milliseconds.js'
+		run(program, { element : document.querySelector('pre') }).then(function(e){
+			console.log(e)
+		}).catch(function(e) {
+			console.warn(e.message)
+			console.log(e.error)
+		})
+	</script>
 </body>
 </html>
