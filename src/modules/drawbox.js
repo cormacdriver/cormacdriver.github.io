@@ -227,5 +227,5 @@ export function drawInfo(context, cursor, target, style) {
 
 	const textBoxStyle = {...defaultInfoStyle, ...style}
 
-	drawBox(info, textBoxStyle, target, context.cols, context.rows)
+	//drawBox(info, textBoxStyle, target, context.cols, context.rows)
 }
